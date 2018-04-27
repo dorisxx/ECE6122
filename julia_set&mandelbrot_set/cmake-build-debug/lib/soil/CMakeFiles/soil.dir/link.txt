@@ -1,0 +1,2 @@
+C:\mingw-w64\i686-7.3.0-posix-dwarf-rt_v5-rev0\mingw32\bin\ar.exe qc libsoil.a  CMakeFiles/soil.dir/src/image_helper.c.obj CMakeFiles/soil.dir/src/stb_image_aug.c.obj CMakeFiles/soil.dir/src/image_DXT.c.obj CMakeFiles/soil.dir/src/SOIL.c.obj
+C:\mingw-w64\i686-7.3.0-posix-dwarf-rt_v5-rev0\mingw32\bin\ranlib.exe libsoil.a

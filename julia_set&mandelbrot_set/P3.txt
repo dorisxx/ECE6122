@@ -1,0 +1,36 @@
+For this assignment we will be looking at the Mandelbrot set.
+
+ 
+
+See here for information on how to get started:
+
+ 
+
+https://giansass.com/blog/mandelbrot-set-part-1-overview/
+
+https://giansass.com/blog/mandelbrot-set-part-2-opengl-program/
+
+ 
+
+Once you get this code running, you need to add the following:
+
+ 
+
+Create an image of your name using any sort of image creation program.  You¡¯ll display this in the upper left hand corner of screen as a texture.  Also, add your name to the window's titlebar.
+
+ 
+
+The z^2 part of the equation can be modified for interesting effects.  Allow the user to press the keys 2 - 8 to change the exponent on the z term.
+
+ 
+
+You should submit 7 screen shots showing your name texture and the Mandelbrot set for exponents 2-8.  Name your screen shots mandelx.jpg where x is the power of z to use.
+
+ 
+
+For extra credit, taking this assignment to 200 total points, repeat this process for the Julia set.  Name these files juliax.jpg where x is the power of z used on each screen shot.  These should also contain the texture with your name on it in the upper left corner.  
+
+
+For getting opengl setup on your computer see https://learnopengl.com/Getting-started/Creating-a-window
+
+Your submission should be named P3.zip or P3.tar.gz.  You only need to submit the required screenshots.  No code.

@@ -1,0 +1,22 @@
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: C:/P31/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe" "cmTC_f49de/fast"
+C:/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_f49de.dir\build.make CMakeFiles/cmTC_f49de.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/P31/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f49de.dir/src.c.obj
+C:\mingw-w64\i686-7.3.0-posix-dwarf-rt_v5-rev0\mingw32\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_f49de.dir\src.c.obj   -c C:\P31\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_f49de.exe
+"C:\Program Files\JetBrains\CLion 2017.3.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f49de.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f49de.dir/objects.a
+C:\mingw-w64\i686-7.3.0-posix-dwarf-rt_v5-rev0\mingw32\bin\ar.exe cr CMakeFiles\cmTC_f49de.dir/objects.a @CMakeFiles\cmTC_f49de.dir\objects1.rsp
+C:\mingw-w64\i686-7.3.0-posix-dwarf-rt_v5-rev0\mingw32\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_f49de.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f49de.exe -Wl,--out-implib,libcmTC_f49de.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f49de.dir\linklibs.rsp
+C:/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+C:/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f49de.dir\build.make:99: cmTC_f49de.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/P31/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:125: cmTC_f49de/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
